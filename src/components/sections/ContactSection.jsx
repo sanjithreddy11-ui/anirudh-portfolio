@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Check, Instagram, Youtube, Linkedin, Mail, MapPin, Clock } from 'lucide-react';
+import { ArrowRight, Check, Instagram, Youtube, Linkedin, Mail, MapPin, Clock,Phone} from 'lucide-react';
 
 const ease = [0.25, 0.1, 0.25, 1];
 
@@ -37,10 +37,20 @@ export default function ContactSection() {
 
           {/* Contact Details */}
           <div className="space-y-4 mb-10">
-            <a href="mailto:hello@youreditor.com" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors font-mono text-sm group">
+            <a href="mailto:crazyanirudhr1@gmail.com" className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors font-mono text-sm group">
               <Mail size={16} className="text-zinc-600 group-hover:text-white transition-colors" />
-              hello@youreditor.com
+              crazyanirudhr1@gmail.com
             </a>
+            <a
+  href="tel:+919676233519"
+  className="flex items-center gap-3 text-zinc-400 hover:text-white transition-colors"
+>
+  <Phone
+    size={16}
+    className="text-zinc-600 group-hover:text-white transition-colors"
+  />
+  +91 96762 33519
+</a>
             <div className="flex items-center gap-3 text-zinc-400 font-mono text-sm">
               <MapPin size={16} className="text-zinc-600" />
               Available Worldwide · Remote
@@ -51,11 +61,11 @@ export default function ContactSection() {
             </div>
           </div>
 
-          {/* Social Links */}
+          {/* Social Links */}F
           <div className="flex gap-6">
             {[
-              { icon: Instagram, label: 'Instagram', href: '#' },
-              { icon: Youtube, label: 'YouTube', href: '#' },
+              { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/__anirudh9?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' },
+              { icon: Youtube, label: 'YouTube', href: 'https://www.youtube.com/@cookedinlife9' },
               { icon: Linkedin, label: 'LinkedIn', href: '#' },
             ].map((s) => (
               <a

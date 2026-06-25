@@ -86,9 +86,10 @@ export default function FooterSection() {
           <div>
             <p className="font-mono text-xs uppercase tracking-widest text-zinc-500 mb-4">Contact</p>
             <div className="space-y-3">
-              <a href="mailto:hello@youreditor.com" className="block font-mono text-sm text-zinc-500 hover:text-white transition-colors">
-                hello@youreditor.com
+              <a href="mailto: crazyanirudhr1@gmail.com" className="block font-mono text-sm text-zinc-500 hover:text-white transition-colors">
+                 crazyanirudhr1@gmail.com
               </a>
+               <p className="font-mono text-sm text-zinc-600">+91 96762 33519</p>
               <p className="font-mono text-sm text-zinc-600">Available Worldwide · Remote</p>
               <div className="pt-2">
                 <p className="font-mono text-xs text-zinc-700 mb-1 uppercase tracking-widest">Local Time</p>
